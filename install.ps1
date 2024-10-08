@@ -1,6 +1,7 @@
-﻿function InstallProgramsViaChocolatey {
+function InstallProgramsViaChocolatey {
    
     $programs = @(
+        "vcredist-all"
         "lightshot.install",
         "notepadplusplus",
         "winrar",
